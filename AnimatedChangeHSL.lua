@@ -33,8 +33,8 @@ if data.confirm then
 			ui=false,
 			mode='hsl',
 			hue = data.hue_amount,
-			saturation = data.sat_amount
-			lightness = data.light_amount
+			saturation = data.sat_amount,
+			lightness = data.light_amount,
 			alpha = data.alpha_amount
 		}
 		sprite = cel.image:clone()
